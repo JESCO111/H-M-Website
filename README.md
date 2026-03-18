@@ -1,42 +1,96 @@
-# H-M-Website
-website
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>H & M Outdoor Designs</title>
+<title>H & M Outdoor Design | Landscaping & Masonry</title>
 
 <style>
-body {font-family: Arial, sans-serif; margin:0; line-height:1.6; color:#333;}
-header {background:#2e7d32; color:white; padding:20px; text-align:center;}
-nav {background:#1b5e20; padding:12px; text-align:center;}
-nav a {color:white; margin:0 15px; text-decoration:none; font-weight:bold;}
-.hero {
-  background:url('https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1560185127-6ed189bf02f4&data=05%7C02%7C%7C1057046ccfe84c0a23fe08de8480ec3a%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639093886405197072%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=cJVUWj2QXFRKCF9GJq5kHajcvT8f8s4i8x60%2FXsM%2BVA%3D&reserved=0') center/cover;
-  color:white; padding:100px 20px; text-align:center;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
 }
-.hero h2 {font-size:40px;}
-.section {padding:50px 20px; max-width:1100px; margin:auto;}
-.services {display:flex; flex-wrap:wrap; gap:20px;}
-.card {
-  flex:1; min-width:250px;
-  background:#f4f4f4; padding:20px;
-  border-radius:8px;
+
+header {
+    background: url('https://images.unsplash.com/photo-1598514982636-7b2c2e7c3a32') no-repeat center/cover;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
 }
-.gallery img {
-  width:100%; max-width:300px; margin:10px;
-  border-radius:8px;
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
 }
-footer {background:#2e7d32; color:white; text-align:center; padding:20px;}
-.btn {
-  background:#2e7d32; color:white;
-  padding:12px 25px;
-  text-decoration:none;
-  border-radius:5px;
-  display:inline-block;
-  margin-top:15px;
+
+header p {
+    font-size: 1.2em;
+}
+
+nav {
+    background: #2f5d34;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service-box {
+    width: 300px;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 10px;
+}
+
+.service-box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.cta {
+    background: #2f5d34;
+    color: white;
+    padding: 40px 20px;
+}
+
+.cta h2 {
+    margin-bottom: 10px;
+}
+
+button {
+    background: #fff;
+    color: #2f5d34;
+    border: none;
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
 </style>
 </head>
@@ -44,83 +98,76 @@ footer {background:#2e7d32; color:white; text-align:center; padding:20px;}
 <body>
 
 <header>
-<h1>H & M Outdoor Designs</h1>
-<p>Landscaping • Lawn Care • Masonry Construction</p>
+    <h1>H & M Outdoor Design</h1>
+    <p>Professional Landscaping & Masonry Services</p>
+    <p>Serving Central New Jersey Since 2018</p>
 </header>
 
 <nav>
-<a href="#services">Services</a>
-<a href="#about">About</a>
-<a href="#gallery">Gallery</a>
-<a href="#contact">Contact</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#service-area">Service Area</a>
+    <a href="#contact">Contact</a>
 </nav>
 
-<section class="hero">
-<h2>Transform Your Outdoor Space</h2>
-<p>Serving Central New Jersey – Based in Plainfield, NJ 07060</p>
-<a href="#contact" class="btn">Get a Free Estimate</a>
+<section id="about" class="section">
+    <h2>About Us</h2>
+    <p>
+        H & M Outdoor Design has been proudly serving Central New Jersey since 2018, 
+        officially established in 2025. Based in Plainfield, NJ, we specialize in 
+        high-quality landscaping and masonry services that enhance the beauty and 
+        functionality of your outdoor space.
+    </p>
 </section>
 
 <section id="services" class="section">
-<h2>Our Services</h2>
+    <h2>Our Services</h2>
+    <div class="services">
 
-<div class="services">
+        <div class="service-box">
+            <img src="https://images.unsplash.com/photo-1597848212624-e6b8d43dcb5c">
+            <h3>Lawn Cutting</h3>
+            <p>Reliable and professional lawn maintenance to keep your property looking its best.</p>
+        </div>
 
-<div class="card">
-<h3>Lawn Cutting</h3>
-<p>Weekly & bi-weekly mowing, edging, trimming, and seasonal cleanups.</p>
-</div>
+        <div class="service-box">
+            <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952">
+            <h3>Landscaping</h3>
+            <p>Custom landscaping design and installation tailored to your home or business.</p>
+        </div>
 
-<div class="card">
-<h3>Landscaping</h3>
-<p>Mulching, planting, yard design, sod installation, and maintenance.</p>
-</div>
+        <div class="service-box">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c">
+            <h3>Masonry Construction</h3>
+            <p>Expert masonry work including patios, walkways, retaining walls, and more.</p>
+        </div>
 
-<div class="card">
-<h3>Masonry Construction</h3>
-<p>Patios, walkways, pavers, retaining walls, and custom stonework.</p>
-</div>
-
-</div>
+    </div>
 </section>
 
-<section id="about" class="section">
-<h2>About Us</h2>
-<p>
-H & M Outdoor Designs is a locally trusted landscaping and masonry company
-serving Central New Jersey. Based out of Plainfield, NJ, we specialize in
-creating beautiful, functional outdoor spaces with high-quality craftsmanship
-and attention to detail.
-</p>
+<section id="service-area" class="section">
+    <h2>Service Area</h2>
+    <p>
+        We proudly serve Central New Jersey, including:
+    </p>
+    <p><strong>Middlesex County | Somerset County | Union County</strong></p>
 </section>
 
-<section id="gallery" class="section">
-<h2>Our Work</h2>
-<p>Add your real project photos here to showcase your work.</p>
-
-<div class="gallery">
-<img src="https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1599423300746-b62533397364&data=05%7C02%7C%7C1057046ccfe84c0a23fe08de8480ec3a%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639093886405224829%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=m3fqVwtNpgGto9ITO4A9EKIVfaNamOUYIX3yG%2FD0unc%3D&reserved=0">
-<img src="https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1600585154340-be6161a56a0c&data=05%7C02%7C%7C1057046ccfe84c0a23fe08de8480ec3a%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639093886405246883%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=Rboxl9B1%2BAER60eYGiebOjUcbDqxz9cmgyL9s75hEcQ%3D&reserved=0">
-<img src="https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1503387762-592deb58ef4e&data=05%7C02%7C%7C1057046ccfe84c0a23fe08de8480ec3a%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C639093886405273454%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=izmn5frDLdiISPgxabLYGy3vER5lHG0udHBQeXpwMUY%3D&reserved=0">
-</div>
+<section class="cta">
+    <h2>Get a Free Estimate Today</h2>
+    <p>Call or text us now!</p>
+    <button onclick="window.location.href='tel:9082943297'">📞 908-294-3297</button>
 </section>
 
 <section id="contact" class="section">
-<h2>Contact Us</h2>
-
-<p><strong>Location:</strong> Plainfield, NJ 07060</p>
-<p><strong>Service Area:</strong> Central New Jersey</p>
-
-<p><strong>Phone:</strong> (INSERT YOUR NUMBER)</p>
-<p><strong>Email:</strong> (INSERT YOUR EMAIL)</p>
-
-<a href="tel:YOURNUMBER" class="btn">Call Now</a>
-<a href="mailto:YOUREMAIL" class="btn">Request Quote</a>
-
+    <h2>Contact Us</h2>
+    <p>📍 Plainfield, NJ 07060</p>
+    <p>📞 Call or Text: <strong>908-294-3297</strong></p>
+    <p>We respond quickly to all inquiries!</p>
 </section>
 
 <footer>
-<p>© 2026 H & M Outdoor Designs | Central New Jersey Landscaping & Masonry</p>
+    <p>© 2025 H & M Outdoor Design | All Rights Reserved</p>
 </footer>
 
 </body>
